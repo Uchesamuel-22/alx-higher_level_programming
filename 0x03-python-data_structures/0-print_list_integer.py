@@ -1,11 +1,12 @@
-0-print_list_integer.py
-
 #!/usr/bin/python3
-# 0-print_list_integer.py
 
 
 def print_list_integer(my_list=[]):
-    """Print all integers of a list."""
-    for i in range(len(my_list)):
-        print("{:d}".format(my_list[i]))
+    for n in my_list:
+        print('{:d}'.format(n))
+
+
+if __name__ == '__main__':
+    my_list = [2, 4, 6, 8]
+    print_list_integer(my_list)
 
